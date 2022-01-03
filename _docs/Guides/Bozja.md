@@ -15,9 +15,7 @@ header:
 🚫 12/28/21: This guide is still Work in Progress but might still provide some use for you.
 {: .notice}
 
-Clusters are a form of currency used in bozja southern front. They drop from specific mombs anda re used to buy stuff like riding maps, minions and other stuff.
-
-#bozja 
+# Bozja 
 1. There's 3 zones, the 1st auto unlocks, the 2nd unlocks at rank 5 and the third unlocks at rank 8. 
 2. You earn "mettle" and at specific levels of mettle you earn more "Rank". 
 3. You earn mettle/ranks by killing mobs in the zones and by doing "skirmishes", which are fates. 
@@ -28,7 +26,7 @@ Clusters are a form of currency used in bozja southern front. They drop from spe
 8. The monsters have ranks denoted by the numbers next to them       - Do not attack anything higher than a   by yourself lol. 
 9. Doing skirmishes lowers timer for castrum. 
 
-#whatisbozja
+# What is Bozja
 
 Bozja is "post patch" content. In ARR there was Palace of the Dead, in HW it was the firmament (and idk what else?), in SB it was Eureka and Heaven on High and in ShB It's Bozja. It's meant to pad out time between expacs and are usually great ways to level your classes/get goodies/grind for shiny stuff.
 
@@ -39,3 +37,5 @@ Bozja is the new eureka. Basically Eureka after square listened to players and m
 You access DR and Bozja from the same NPC, but you can only do Castrum Lacus Litore from INSIDE of Bozja (it's triggered from how active the instance is, it can have like 120 players in there). So you level up and do bozjan southern front till like rank 12 when u unlock DR then u complete that and get to go in to Zadnor. Basically another bozjan southern front where u unlock maps as u progress through ranks (mettle is the exp u get from doing that content and gets u ranks).
 
 So then you hit rank 25 and you can do the new raid, Daladria. And then that's technically the end of the story. After that it's just endless grind to get your shiny weapons. Great place to level classes from lv 71-80 tho since everything gets scaled up to lv 80. Lets u practice ur lv 80 rotations for example.
+
+Clusters are a form of currency used in bozja southern front. They drop from specific mombs anda re used to buy stuff like riding maps, minions and other stuff.

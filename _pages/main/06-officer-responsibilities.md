@@ -51,7 +51,7 @@ Additionally: Each specialty below will require someone to act as the Lead for t
 ## Discord Moderator/Website Administrator/Developer
 - Will be hand picked by FC Leader, but you can select this role if you want to be considered for it on your application.
         
-#Responsibilities shared by everyone:
+# Responsibilities shared by everyone:
 - Deploy daily buffs
 - Clean chocobo stables  
 - Promote any new member to their respective pronoun role when they join

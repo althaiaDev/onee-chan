@@ -11,7 +11,7 @@ header:
   caption: "Photo credit: **Al'thaion Waeth**"
   image_description: "Pictured: Al'thaion Waeth and Kivarstra Suhgrest"
 ---
-#Overview
+# Overview
 
 We are all here because we share the common goal of supporting the growth and success of our Free Company. Below are some guidelines to help you, but you are trusted to use your best judgement and common sense should the situation call for it. Officers must comply with all FC Code of Conduct and any of the FC Rules or Regulations, no exceptions. Any individual in a position representing the Free Company will be held to higher standards than a regular member. 
 
