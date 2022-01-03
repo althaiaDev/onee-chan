@@ -14,19 +14,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Onee-chan
+title_separator: "|"
+subtitle: An FFXIV Free Company
+logo: "/assets/images/logo.png"
+# Repo info
+repository: althaiaDev/onee-chan
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Onee-Chan Free Company, on Adamantoise, FFXIV.
-minimal_mistakes_skin: default
+  Onee-Chan Free Company, on Adamantoise.
+minimal_mistakes_skin: "neon"
 search: true
+breadcrumbs: true  # disabled by default
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /main/page:num/
+# paginate: 5 # amount of posts to show
+# paginate_path: /main/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -54,34 +60,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Al'thaion Waeth"
+  avatar : "/assets/images/cap_alth.png"
+  bio    : "Onee-Chan FC Leader, Slumlord Onionmonger."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/althaiadev"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Documentation"
+      icon: "fas fa-file-alt"
+      url: "https://docs.onee-chan.info/"
+    - label: "Lodestone"
+      icon: "fas fa-gem"
+      url: "https://na.finalfantasyxiv.com/lodestone/freecompany/9233645873504840290/"
+    - label: "Community Finder"
+      icon: "fas fa-users"
+      url: "https://na.finalfantasyxiv.com/lodestone/community_finder/460849377274f26ea60dcb6b1529807ad6a0a749/"
 
 defaults:
   # _posts
@@ -101,7 +107,20 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false  
+  # _docs
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs" 
+      excerpt: "uwu"
 
 category_archive:
   type: liquid
@@ -109,3 +128,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/

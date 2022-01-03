@@ -1,9 +1,51 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "About us"
+    url: /about-us/
+  - title: "Docs"
+    url: /docs/
+  - title: "Contact us"
+    url: /contact-us/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "🌺 Frequently Asked Questions"
+        url: /docs/getting-started/faq/
+      - title: "🌺 Links"
+        url: /docs/getting-started/links/
+
+  - title: Guides
+    children:
+      - title: "🌺 Beginner's Guide"
+        url: /docs/guides/beginners-guide/
+      - title: "🌺 Bozjan Southern Front"
+        url: /docs/guides/bozja/
+
+  - title: Hunts
+    children:
+      - title: "🌺 Macros"
+        url: /docs/hunts/macros
+      - title: "🌺 Relaying"
+        url: /docs/hunts/relaying
+
+about-us:
+  - title: Start here
+    children:
+      - title: "🌺 New Member Welcome"
+        url: /new-member-welcome
+      - title: "🌺 General Information"
+        url: /general-information
+  - title: Rules
+    children:
+      - title: "🌺 Code of Conduct"
+        url: /code-of-conduct
+      - title: "🌺 Spoilers Guidelines"
+        url: /spoilers-guidelines
+      - title: "🌺 Disciplinary Actions, Demotion or Dismissal"
+        url: /disciplinary-actions
+  - title: Officers
+    children:        
+      - title: "🌺 Duties and Responsibilities"
+        url: /officer-duties
+      - title: "🌺 Officer Roles"
+        url: /officer-roles

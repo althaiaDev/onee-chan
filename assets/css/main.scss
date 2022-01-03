@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+.nav__list .nav__items .active {
+    color: #f21368;
+}
+h1 {
+  color: #f21368;
+}
+.code-header {
+    display: flex;
+    left: calc(100% - 69px);
+    padding-top: .5em;
+    z-index:1;
+    position: absolute;
+  }
+  
+  .copy-code-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: .6rem;
+    background-color: #616161;
+    color: #e7e7e7;
+    padding: 0.4em 0.5em;
+    border-radius: 5px;
+    
+    &::before {
+      content: "Copy";
+    }
+  
+    &::after {
+      content: "📋";
+      display: block;
+    }
+  
+    // This class will be toggled via JavaScript
+    &.copied {
+      &::before {
+        content: "Copied!";
+      }
+  
+      &::after {
+        content: "✔️";
+      }
+    }
+  }  
+
+/* dracula syntax highlighting (base16) */
+/* https://github.com/dracula/base16-dracula-scheme */
+$base00: #282936;
+$base01: #3a3c4e;
+$base02: #4d4f68;
+$base03: #626483;
+$base04: #62d6e8;
+$base05: #e9e9f4;
+$base06: #f1f2f8;
+$base07: #f7f7fb;
+$base08: #ea51b2;
+$base09: #b45bcf;
+$base0a: #00f769;
+$base0b: #ebff87;
+$base0c: #a1efe4;
+$base0d: #62d6e8;
+$base0e: #b45bcf;
+$base0f: #00f769;
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
