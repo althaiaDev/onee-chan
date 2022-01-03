@@ -12,12 +12,12 @@ docs:
       - title: "🌺 Frequently Asked Questions"
         url: /docs/getting-started/faq
       - title: "🌺 Links"
-        url: /docs/getting-started/links/
+        url: /docs/getting-started/links
 
   - title: Guides
     children:
       - title: "🌺 Beginner's Guide"
-        url: /docs/guides/beginners-guide/
+        url: /docs/guides/beginners-guide
       - title: "🌺 Bozjan Southern Front"
         url: /docs/guides/bozja
 

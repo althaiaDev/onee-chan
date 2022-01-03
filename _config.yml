@@ -19,7 +19,7 @@ subtitle: An FFXIV Free Company
 logo: "/assets/images/logo.png"
 
 # Repo info
-#repository: althaiaDev/onee-chan
+repository: althaiaDev/onee-chan
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Onee-Chan Free Company, on Adamantoise.
@@ -130,7 +130,7 @@ defaults:
     values:
       layout: single
       author_profile: false  
-      excerpt: "uwu"
+      excerpt: ""
   # _docs
   - scope:
       path: "_docs"
@@ -143,7 +143,7 @@ defaults:
       comments: false
       sidebar:
         nav: "docs" 
-      excerpt: "uwu"
+      excerpt: ""
 
 category_archive:
   type: liquid
