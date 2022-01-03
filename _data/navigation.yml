@@ -10,7 +10,7 @@ docs:
   - title: Getting Started
     children:
       - title: "🌺 Frequently Asked Questions"
-        url: /docs/getting-started/faq/
+        url: /docs/getting-started/faq
       - title: "🌺 Links"
         url: /docs/getting-started/links/
 
@@ -19,7 +19,7 @@ docs:
       - title: "🌺 Beginner's Guide"
         url: /docs/guides/beginners-guide/
       - title: "🌺 Bozjan Southern Front"
-        url: /docs/guides/bozja/
+        url: /docs/guides/bozja
 
   - title: Hunts
     children:

@@ -17,23 +17,45 @@ title: Onee-Chan
 title_separator: "|"
 subtitle: An FFXIV Free Company
 logo: "/assets/images/logo.png"
+
 # Repo info
-repository: althaiaDev/onee-chan
+#repository: althaiaDev/onee-chan
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Onee-Chan Free Company, on Adamantoise.
 minimal_mistakes_skin: "neon"
 search: true
-breadcrumbs: true  # disabled by default
 
-# Build settings
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 remote_theme: mmistakes/minimal-mistakes
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
-# paginate_path: /main/page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -59,23 +81,23 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 author:
   name   : "Al'thaion Waeth"
   avatar : "/assets/images/cap_alth.png"
   bio    : "Onee-Chan FC Leader, Slumlord Onionmonger."
   links:
-#    - label: "Website"
-#      icon: "fas fa-fw fa-link"
-#      url: "https://"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/althaiadev"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
 
 footer:
   links:
@@ -108,6 +130,7 @@ defaults:
     values:
       layout: single
       author_profile: false  
+      excerpt: "uwu"
   # _docs
   - scope:
       path: "_docs"
