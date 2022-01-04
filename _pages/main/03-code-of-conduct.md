@@ -16,6 +16,7 @@ header:
 - We have a zero tolerance policy towards racism, homophobia, transphobia, harassment, sexism, stalking, and abuse. 
     - This rule applies to all forms of communication, even in “private” Free Company channels, including voice chat. Violations of this rule may result in an instant and permanent ban from both the discord and Free Company.     
 - A member may be disciplined, demoted, or dismissed from the Free Company at Leadership's discretion should they violate the Code of Conduct.
+- We have a zero tolerance policy against following other FC members and doing the fates that they are doing.
 
 This page is comprehensive but may not encompass all of our rules, please behave with common sense and treat others how they would like to be treated. Any attempt to get around the rules simply because they are not written will result in disciplinary action.    
 
