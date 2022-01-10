@@ -2,7 +2,7 @@
 permalink: /docs/getting-started/faq
 title: "Frequently Asked Questions"
 last_modified_at: 2022-01-02T08:48:05-04:00
-toc: true
+toc: false
 excerpt: ""
 sidebar:
   nav: "docs"
