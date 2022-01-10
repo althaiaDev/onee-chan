@@ -4,6 +4,7 @@ title: "Frequently Asked Questions"
 last_modified_at: 2022-01-02T08:48:05-04:00
 toc: false
 excerpt: ""
+classes: wide
 sidebar:
   nav: "docs"
 header:
