@@ -35,6 +35,8 @@ about-us:
         url: /new-member-welcome
       - title: "🌺 General Information"
         url: /general-information
+      - title: "🌺 FC Crafting"
+        url: /fc-crafting
   - title: Rules
     children:
       - title: "🌺 Code of Conduct"
