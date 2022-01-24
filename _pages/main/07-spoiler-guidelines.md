@@ -16,6 +16,8 @@ A Spoiler is any description or hint of an important plot development in the gam
 
 For the most part, things revealed through the media tour are fair game after about a week or two. Any big reveal in the game will never be ok to spoil, regardless of time elapsed since it's reveal. Approximately 3 months after the release of an expansion, we will lift the heavy restrictions from the general FC chat. No spoilers will still be allowed, but we will retire the use of special expansion-exclusive Discord Channels and in-game Linkshells.
 
+ **Any leaked content/data mined content is always considered spoiler territory until it has been released and fits one of our other content guidelines.**
+
 # What counts as an Endwalker spoiler?
 
 We ask that you be flexible with us and help us prevent **any** type of story spoiler, even as minor as it might seem. This is a Free Company dedicated to helping adventurers who are beginning their journey and the story is one of the most important tenets of FFXIV’s greatness. The decision whether something is a spoiler is ultimately up to the FC Leadership. If you have any questions, or wonder if something you want to ask is a spoiler, please reach out directly to an FC Officer for guidance.
